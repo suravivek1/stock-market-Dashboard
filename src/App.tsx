@@ -118,17 +118,7 @@ function App() {
             />
           </div>
         )}
-
-        {/* Development Notes - Remove in production */}
-        <div className="mt-12 bg-amber-50 border border-amber-200 rounded-lg p-6">
-          <h3 className="text-lg font-semibold text-amber-800 mb-3">Development Status</h3>
-          <div className="space-y-2 text-sm text-amber-700">
-            <p>• <strong>Data Source:</strong> Currently using mock data. Need to implement actual Yahoo Finance scraping.</p>
-            <p>• <strong>API Integration:</strong> P/E ratios and earnings data require Google Finance integration.</p>
-            <p>• <strong>Performance:</strong> Caching implemented but may need optimization for large portfolios.</p>
-            <p>• <strong>Updates:</strong> 15-second refresh cycle - consider WebSocket implementation for better performance.</p>
-          </div>
-        </div>
+        
       </main>
     </div>
   );
